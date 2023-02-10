@@ -14,12 +14,13 @@ Backend (rest api) of the application, in which users can:
 - Lombok
 - Docker.
 ## Quick start:
+[DockerHub image](https://hub.docker.com/r/romanbatrakov/java-kameleoon-trial-task)
+
 The application uses ports: 8080.
 While in the directory on the command line, type:
 
 `mvn package`  
-`docker build -t java-kameleoon-trial-task .`  
-`docker run --name kameleoon-trial-task -p 8080:8080 java-kameleoon-trial-task`  
+`docker-compose up`
 ## Rest service:
 <details>
     <summary><h3>Examples of methods and endpoints available for the API:</h3></summary>

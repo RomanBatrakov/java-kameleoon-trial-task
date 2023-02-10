@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  kameleoon:
+    build: java-kameleoon-trial-task
+    image: romanbatrakov/java-kameleoon-trial-task
+    container_name: java-kameleoon-trial-task
+    restart: always
+    ports:
+      - "8080:8080"
