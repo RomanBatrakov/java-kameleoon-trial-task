@@ -23,14 +23,14 @@ While in the directory on the command line, type:
 <details>
     <summary><h3>Examples of methods and endpoints available for the API:</h3></summary>
 
-- [(POST) create quote](http://localhost:8080/quotes/{userId})
-- [(GET) get quote](http://localhost:8080/quotes/{quoteId})
-- [(GET) get all quotes](http://localhost:8080/quotes)
-- [(GET) get top quotes](http://localhost:8080/quotes/top)
-- [(PATCH) update quote](http://localhost:8080/quotes/{itemId}/{quoteId})
-- [(DELETE) delete quote](http://localhost:8080/quotes/{itemId}/{quoteId})
-- [(POST) create vote](http://localhost:8080/quotes/{itemId}/{quoteId}/{reaction})
-- [(GET) get quote votes](http://localhost:8080/quotes/{quoteId}/votes)
-- [(POST) create user](http://localhost:8080/users)
+- [(POST) create quote] - http://localhost:8080/quotes/{userId}
+- [(GET) get quote] - http://localhost:8080/quotes/{quoteId}
+- [(GET) get all quotes] - http://localhost:8080/quotes
+- [(GET) get top quotes] - http://localhost:8080/quotes/top
+- [(PATCH) update quote] - http://localhost:8080/quotes/{itemId}/{quoteId}
+- [(DELETE) delete quote] - http://localhost:8080/quotes/{itemId}/{quoteId}
+- [(POST) create vote] - http://localhost:8080/quotes/{itemId}/{quoteId}/{reaction}
+- [(GET) get quote votes] - http://localhost:8080/quotes/{quoteId}/votes
+- [(POST) create user] - http://localhost:8080/users
 
 </details>
