@@ -18,7 +18,8 @@ The application uses ports: 8080.
 While in the directory on the command line, type:
 
 `mvn package`  
-`docker-compose up`  
+`docker build -t java-kameleoon-trial-task .`  
+`docker run --name kameleoon-trial-task -p 8080:8080 java-kameleoon-trial-task`  
 ## Rest service:
 <details>
     <summary><h3>Examples of methods and endpoints available for the API:</h3></summary>
